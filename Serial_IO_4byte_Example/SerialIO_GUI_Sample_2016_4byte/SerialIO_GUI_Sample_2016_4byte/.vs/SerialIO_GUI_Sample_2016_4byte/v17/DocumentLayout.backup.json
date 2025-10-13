@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3867D371-B7C9-4594-A50B-DCD525749C1B}|SerialIO_GUI_Sample_2016_4byte.csproj|E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\basicgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3867D371-B7C9-4594-A50B-DCD525749C1B}|SerialIO_GUI_Sample_2016_4byte.csproj|solutionrelative:basicgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3867D371-B7C9-4594-A50B-DCD525749C1B}|SerialIO_GUI_Sample_2016_4byte.csproj|E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\basicgui.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3867D371-B7C9-4594-A50B-DCD525749C1B}|SerialIO_GUI_Sample_2016_4byte.csproj|solutionrelative:basicgui.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3867D371-B7C9-4594-A50B-DCD525749C1B}|SerialIO_GUI_Sample_2016_4byte.csproj|e:\\curtin_colombo\\year_2\\semester_2\\mxen3000\\milestone_4\\serial_io_4byte_example\\serialio_gui_sample_2016_4byte\\serialio_gui_sample_2016_4byte\\basicgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3867D371-B7C9-4594-A50B-DCD525749C1B}|SerialIO_GUI_Sample_2016_4byte.csproj|solutionrelative:basicgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicGUI.Designer.cs",
+              "DocumentMoniker": "E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\BasicGUI.Designer.cs",
+              "RelativeDocumentMoniker": "BasicGUI.Designer.cs",
+              "ToolTip": "E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\BasicGUI.Designer.cs",
+              "RelativeToolTip": "BasicGUI.Designer.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAvwGEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:53:40.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasicGUI.cs",
+              "DocumentMoniker": "E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\BasicGUI.cs",
+              "RelativeDocumentMoniker": "BasicGUI.cs",
+              "ToolTip": "E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\BasicGUI.cs",
+              "RelativeToolTip": "BasicGUI.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T08:48:37.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasicGUI.cs [Design]",
+              "DocumentMoniker": "E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\BasicGUI.cs",
+              "RelativeDocumentMoniker": "BasicGUI.cs",
+              "ToolTip": "E:\\Curtin_Colombo\\year_2\\semester_2\\MXEN3000\\Milestone_4\\Serial_IO_4byte_Example\\SerialIO_GUI_Sample_2016_4byte\\SerialIO_GUI_Sample_2016_4byte\\BasicGUI.cs [Design]",
+              "RelativeToolTip": "BasicGUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T08:02:55.509Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

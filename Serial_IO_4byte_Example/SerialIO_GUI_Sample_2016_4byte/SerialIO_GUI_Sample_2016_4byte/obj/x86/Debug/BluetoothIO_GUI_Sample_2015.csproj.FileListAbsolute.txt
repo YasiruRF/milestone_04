@@ -1,0 +1,15 @@
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO.exe
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO.pdb
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\bin\Debug\BluetoothIO.exe
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\bin\Debug\BluetoothIO.pdb
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothGUISample.Form1.resources
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothGUISample.Properties.Resources.resources
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO_GUI_Sample_2015.csproj.GenerateResource.Cache
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO.exe
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO.pdb
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO_GUI_Sample_2015.csprojResolveAssemblyReference.cache
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothGUISample.Form1.resources
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothGUISample.Properties.Resources.resources
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO_GUI_Sample_2015.csproj.GenerateResource.Cache
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\bin\Debug\BluetoothIO.exe
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\bin\Debug\BluetoothIO.pdb

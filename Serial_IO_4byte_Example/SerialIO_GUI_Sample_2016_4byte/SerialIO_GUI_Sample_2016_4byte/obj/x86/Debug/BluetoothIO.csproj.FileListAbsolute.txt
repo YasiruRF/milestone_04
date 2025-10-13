@@ -1,0 +1,8 @@
+C:\Users\Benjamin\documents\visual studio 2010\Projects\BluetoothIO\BluetoothIO\bin\Debug\BluetoothIO.exe
+C:\Users\Benjamin\documents\visual studio 2010\Projects\BluetoothIO\BluetoothIO\bin\Debug\BluetoothIO.pdb
+C:\Users\Benjamin\documents\visual studio 2010\Projects\BluetoothIO\BluetoothIO\obj\x86\Debug\BluetoothIO.csproj.GenerateResource.Cache
+C:\Users\Benjamin\documents\visual studio 2010\Projects\BluetoothIO\BluetoothIO\obj\x86\Debug\BluetoothIO.exe
+C:\Users\Benjamin\documents\visual studio 2010\Projects\BluetoothIO\BluetoothIO\obj\x86\Debug\BluetoothIO.pdb
+C:\Users\Benjamin\documents\visual studio 2010\Projects\BluetoothIO\BluetoothIO\obj\x86\Debug\BluetoothIO.csprojResolveAssemblyReference.cache
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO\BluetoothIO\obj\x86\Debug\BluetoothGUISample.Form1.resources
+C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\BluetoothIO\BluetoothIO\obj\x86\Debug\BluetoothGUISample.Properties.Resources.resources

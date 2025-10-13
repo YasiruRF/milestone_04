@@ -1,0 +1,21 @@
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO.exe
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2015\obj\x86\Debug\BluetoothIO.pdb
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO.exe
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2015\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO.pdb
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\bin\Debug\BluetoothIO.exe
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\bin\Debug\BluetoothIO.pdb
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO_GUI_Sample_2016_4byte.csprojResolveAssemblyReference.cache
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothGUISample.Form1.resources
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothGUISample.Properties.Resources.resources
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO_GUI_Sample_2016_4byte.csproj.GenerateResource.Cache
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO.exe
+D:\Bluetooth IO Card\Bluetooth IO Card\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO.pdb
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\bin\Debug\BluetoothIO.exe
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\bin\Debug\BluetoothIO.pdb
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO_GUI_Sample_2016_4byte.csprojAssemblyReference.cache
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothGUISample.Properties.Resources.resources
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO_GUI_Sample_2016_4byte.csproj.GenerateResource.cache
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO_GUI_Sample_2016_4byte.csproj.CoreCompileInputs.cache
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO.exe
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\BluetoothIO.pdb
+C:\Users\251697E\Desktop\Serial_IO_4byte_Example\BluetoothIO_GUI_Sample_2016_4byte\BluetoothIO_GUI_Sample_2016_4byte\obj\x86\Debug\SerialGUISample.Form1.resources
