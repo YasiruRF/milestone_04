@@ -1,12 +1,12 @@
 //Curtin University
 //Mechatronics Engineering
-//Line Follower with Bang-Bang Control + GUI Remote Control
+//Enhanced Line Follower with PWM Control + GUI Communication
 
 // Serial communication protocol: <startByte><commandByte><dataByte><checkByte>
 
 //Declare variables for storing the port values. 
-byte output1 = 255;  // Left motor speed
-byte output2 = 255;  // Right motor speed
+byte output1 = 128;  // Left motor speed (128 = stop)
+byte output2 = 128;  // Right motor speed (128 = stop)
 byte input1 = 0;     // Left IR sensor
 byte input2 = 0;     // Right IR sensor
 
@@ -15,8 +15,6 @@ byte startByte = 0;
 byte commandByte = 0;
 byte dataByte = 0;
 byte checkByte = 0;
-
-//Declare variable for calculating the check sum
 byte checkSum = 0;
 
 //Declare a constant for the start byte
@@ -31,39 +29,51 @@ const byte OUTPUT2 = 3;  // Right motor
 // Pin definitions for DACs and sensors
 const byte DACPIN1[8] = {9, 8, 7, 6, 5, 4, 3, 2}; 
 const byte DACPIN2[8] = {A2, A3, A4, A5, A1, A0, 11, 10};
-const byte SENSOR1 = A6;  // Left IR sensor
-const byte SENSOR2 = A7;  // Right IR sensor
+const byte SENSOR1 = A7;  // Left IR sensor
+const byte SENSOR2 = A6;  // Right IR sensor
 
-// Line follower control parameters
-// Motor speeds (0-255 range, 128 is stop, 255 is full forward, 0 is full reverse)
+// Motor speeds (0-255 range, 128 is stop, >128 forward, <128 reverse)
 const byte MOTOR_STOP = 128;
-const byte MOTOR_FAST = 220;   // Fast forward speed
-const byte MOTOR_SLOW = 200;   // Slow forward speed (for turning)
-const byte MOTOR_REVERSE = 50;      // Fast reverse speed
-const byte MOTOR_REVERSE_SLOW = 90; // Slow reverse speed (for turning)
 
-// Sensor thresholds (adjust these based on your sensor readings)
-// White line detection: readings between 200-300 (closer to 230)
-// Black surface: readings between 700-900 (closer to 789)
-const int WHITE_THRESHOLD = 500;  // Values below this = white line detected
+// PWM values (adjustable from GUI)
+byte fastPWM = 245;      // Default 85% = 217
+byte slowPWM = 225;      // Default 75% = 191
+
+// Calculate motor speeds based on PWM percentages
+byte motorFast = MOTOR_STOP + fastPWM - 128;        // Forward fast
+byte motorSlow = MOTOR_STOP + slowPWM - 128;        // Forward slow
+byte motorReverseFast = MOTOR_STOP - (fastPWM - 128); // Reverse fast
+byte motorReverseSlow = MOTOR_STOP - (slowPWM - 128); // Reverse slow
+
+// Sensor threshold (adjust based on your sensor readings)
+const int WHITE_THRESHOLD = 500;  // Values below = white line detected
 
 // Timing for serial monitor updates
 unsigned long lastSendTime = 0;
 const unsigned long SEND_INTERVAL = 50;  // Send data every 50ms
 
-byte lastLineSide = OUTPUT1;           // Tracks last line position for forward mode
-byte lastLineSideReverse = OUTPUT1;    // Tracks last line position for reverse mode
+// Line tracking variables
+byte lastLineSide = OUTPUT1;           // Last line position for forward mode
+byte lastLineSideReverse = OUTPUT1;    // Last line position for reverse mode
 
 // Command constants
 const byte START_CMD = 4;
 const byte STOP_CMD = 5;
 const byte REVERSE_CMD = 6;
+const byte SET_FAST_PWM = 7;
+const byte SET_SLOW_PWM = 8;
 
 // Car state variables
 int carState = 0;
 const int STATE_STOPPED = 0;
 const int STATE_RUNNING = 1;
 const int STATE_REVERSING = 2;
+
+// Smoothing variables to reduce jitter
+const int SMOOTH_SAMPLES = 2;
+int leftSensorBuffer[SMOOTH_SAMPLES];
+int rightSensorBuffer[SMOOTH_SAMPLES];
+int sampleIndex = 0;
 
 // Function to output byte value to DAC1 (Left Motor)
 void outputToDAC1(byte data)
@@ -102,11 +112,49 @@ void stopMotors()
   outputToDAC2(output2);
 }
 
+// Update motor speed values when PWM settings change
+void updateMotorSpeeds()
+{
+  motorFast = MOTOR_STOP + (fastPWM - 128);
+  motorSlow = MOTOR_STOP + (slowPWM - 128);
+  motorReverseFast = MOTOR_STOP - (fastPWM - 128);
+  motorReverseSlow = MOTOR_STOP - (slowPWM - 128);
+}
+
+// Read sensors with smoothing to reduce jitter
+void readSensorsSmooth(int &leftVal, int &rightVal)
+{
+  // Read raw values
+  leftSensorBuffer[sampleIndex] = analogRead(SENSOR1);
+  rightSensorBuffer[sampleIndex] = analogRead(SENSOR2);
+  
+  sampleIndex = (sampleIndex + 1) % SMOOTH_SAMPLES;
+  
+  // Calculate average
+  long leftSum = 0;
+  long rightSum = 0;
+  for(int i = 0; i < SMOOTH_SAMPLES; i++)
+  {
+    leftSum += leftSensorBuffer[i];
+    rightSum += rightSensorBuffer[i];
+  }
+  
+  leftVal = leftSum / SMOOTH_SAMPLES;
+  rightVal = rightSum / SMOOTH_SAMPLES;
+}
+
 // Setup: Initialize serial communication and pins
 void setup() 
 {
   Serial.begin(9600);
   initDACs();
+  
+  // Initialize sensor buffers
+  for(int i = 0; i < SMOOTH_SAMPLES; i++)
+  {
+    leftSensorBuffer[i] = analogRead(SENSOR1);
+    rightSensorBuffer[i] = analogRead(SENSOR2);
+  }
   
   // Initialize both motors to stopped position
   stopMotors();
@@ -116,56 +164,61 @@ void setup()
   
   delay(2000);  // 2 second delay before starting
   
-  Serial.println("=== Line Follower Started ===");
+  Serial.println("=== Enhanced Line Follower Started ===");
   Serial.println("State: STOPPED");
   Serial.println("Waiting for commands from GUI...");
 }
 
-// Bang-Bang Line Following Algorithm (Forward)
+// Improved Bang-Bang Line Following Algorithm (Forward)
 void bangBangLineFollow()
 {
-  // Read analog values from both IR sensors
-  int leftSensor = analogRead(SENSOR1);   // Left sensor
-  int rightSensor = analogRead(SENSOR2);  // Right sensor
+  // Read smoothed sensor values
+  int leftSensor, rightSensor;
+  readSensorsSmooth(leftSensor, rightSensor);
   
   // Determine if each sensor detects white line (true) or black surface (false)
   bool leftOnWhite = (leftSensor < WHITE_THRESHOLD);
   bool rightOnWhite = (rightSensor < WHITE_THRESHOLD);
   
-  // Bang-Bang Control Logic:
-  // Case 1: Both sensors on black - turn based on last known line position
+  // Bang-Bang Control Logic with improved transitions:
+  
+  // Case 1: Both sensors on black - Sharp turn based on last known line position
   if (!leftOnWhite && !rightOnWhite)
   {
-    if (lastLineSide == OUTPUT1)  // Last line was on left, turn left sharply
+    if (lastLineSide == OUTPUT1)  // Line was on left, turn left sharply
     {
-      output1 = 255;        // Left motor reverse
-      output2 = 128;        // Right motor forward
+      // output1 = MOTOR_STOP - 30;  // Left motor slight reverse
+      // output2 = motorFast;         // Right motor forward fast
+      output1 = MOTOR_STOP - 60;  // Left motor slight reverse
+      output2 = motorFast;         // Right motor forward fast
     }
-    else  // Last line was on right, turn right sharply
+    else  // Line was on right, turn right sharply
     {
-      output1 = 128;        // Left motor forward
-      output2 = 255;        // Right motor reverse
+      // output1 = motorFast;         // Left motor forward fast
+      // output2 = MOTOR_STOP - 30;  // Right motor slight reverse
+      output1 = motorFast;         // Left motor forward fast
+      output2 = MOTOR_STOP - 60;  // Right motor slight reverse
     }
   }
-  // Case 2: Left sensor on white, right on black - turn left
+  // Case 2: Left sensor on white, right on black - Gentle left turn
   else if (leftOnWhite && !rightOnWhite)
   {
     lastLineSide = OUTPUT1;
-    output1 = MOTOR_FAST;  // Left motor fast
-    output2 = MOTOR_SLOW;  // Right motor slow
+    output1 = motorSlow;   // Left motor slower
+    output2 = motorFast;   // Right motor faster
   }
-  // Case 3: Right sensor on white, left on black - turn right
+  // Case 3: Right sensor on white, left on black - Gentle right turn
   else if (!leftOnWhite && rightOnWhite)
   {
     lastLineSide = OUTPUT2;
-    output1 = MOTOR_SLOW;  // Left motor slow
-    output2 = MOTOR_FAST;  // Right motor fast
+    output1 = motorFast;   // Left motor faster
+    output2 = motorSlow;   // Right motor slower
   }
-  // Case 4: Both sensors on white - go straight
+  // Case 4: Both sensors on white - Go straight at full speed
   else
   {
-    output1 = MOTOR_FAST;  // Left motor forward
-    output2 = MOTOR_FAST;  // Right motor forward
+    output1 = motorFast;
+    output2 = motorFast;
   }
   
   // Apply motor speeds to DACs
@@ -173,51 +226,52 @@ void bangBangLineFollow()
   outputToDAC2(output2);
 }
 
-// Bang-Bang Line Following Algorithm (Reverse)
+// Improved Bang-Bang Line Following Algorithm (Reverse)
 void bangBangLineFollowReverse()
 {
-  // Read analog values from both IR sensors
-  int leftSensor = analogRead(SENSOR1);   // Left sensor
-  int rightSensor = analogRead(SENSOR2);  // Right sensor
+  // Read smoothed sensor values
+  int leftSensor, rightSensor;
+  readSensorsSmooth(leftSensor, rightSensor);
   
   // Determine if each sensor detects white line (true) or black surface (false)
   bool leftOnWhite = (leftSensor < WHITE_THRESHOLD);
   bool rightOnWhite = (rightSensor < WHITE_THRESHOLD);
   
-  // Bang-Bang Control Logic for REVERSE (inverted motor directions):
-  // Case 1: Both sensors on black - turn based on last known line position
+  // Bang-Bang Control Logic for REVERSE (motor directions inverted):
+  
+  // Case 1: Both sensors on black - Sharp turn based on last known line position
   if (!leftOnWhite && !rightOnWhite)
   {
-    if (lastLineSideReverse == OUTPUT1)  // Last line was on left, turn left sharply
+    if (lastLineSideReverse == OUTPUT1)  // Line was on left, turn left sharply in reverse
     {
-      output1 = 25;         // Left motor reverse (stronger)
-      output2 = 128;        // Right motor stop
+      output1 = MOTOR_STOP + 30;  // Left motor slight forward (to turn left in reverse)
+      output2 = motorReverseFast; // Right motor reverse fast
     }
-    else  // Last line was on right, turn right sharply
+    else  // Line was on right, turn right sharply in reverse
     {
-      output1 = 128;        // Left motor stop
-      output2 = 25;         // Right motor reverse (stronger)
+      output1 = motorReverseFast; // Left motor reverse fast
+      output2 = MOTOR_STOP + 30;  // Right motor slight forward (to turn right in reverse)
     }
   }
-  // Case 2: Left sensor on white, right on black - turn left
+  // Case 2: Left sensor on white, right on black - Gentle left turn in reverse
   else if (leftOnWhite && !rightOnWhite)
   {
     lastLineSideReverse = OUTPUT1;
-    output1 = MOTOR_REVERSE;       // Left motor fast reverse
-    output2 = MOTOR_REVERSE_SLOW;  // Right motor slow reverse
+    output1 = motorReverseSlow;  // Left motor slower reverse
+    output2 = motorReverseFast;  // Right motor faster reverse
   }
-  // Case 3: Right sensor on white, left on black - turn right
+  // Case 3: Right sensor on white, left on black - Gentle right turn in reverse
   else if (!leftOnWhite && rightOnWhite)
   {
     lastLineSideReverse = OUTPUT2;
-    output1 = MOTOR_REVERSE_SLOW;  // Left motor slow reverse
-    output2 = MOTOR_REVERSE;       // Right motor fast reverse
+    output1 = motorReverseFast;  // Left motor faster reverse
+    output2 = motorReverseSlow;  // Right motor slower reverse
   }
-  // Case 4: Both sensors on white - go straight in reverse
+  // Case 4: Both sensors on white - Go straight in reverse
   else
   {
-    output1 = MOTOR_REVERSE;  // Left motor reverse
-    output2 = MOTOR_REVERSE;  // Right motor reverse
+    output1 = motorReverseFast;
+    output2 = motorReverseFast;
   }
   
   // Apply motor speeds to DACs
@@ -249,7 +303,7 @@ void sendDataToGUI()
   }
 }
 
-// FIXED: Handle serial commands from GUI with proper 4-byte protocol
+// Handle serial commands from GUI with proper 4-byte protocol
 void handleSerialCommands()
 {
   // Only try to read commands if we have at least 4 bytes available
@@ -258,7 +312,6 @@ void handleSerialCommands()
     byte receivedStartByte = Serial.peek();  // Peek at first byte without consuming it
     
     // Check if this looks like a command (starts with START byte 255)
-    // Commands have format: 255, 4/5/6, 0, checksum
     if (receivedStartByte == START)
     {
       // Now consume the bytes
@@ -275,21 +328,35 @@ void handleSerialCommands()
         // Checksum valid - process the command
         switch(receivedCommandByte)
         {
-          case START_CMD:  // Command 4
+          case START_CMD:  // Command 4 - Start forward
             carState = STATE_RUNNING;
             lastLineSide = OUTPUT1;  // Reset forward tracker
             Serial.println("Command: START - Car now following line forward");
             break;
             
-          case STOP_CMD:   // Command 5
+          case STOP_CMD:   // Command 5 - Stop
             carState = STATE_STOPPED;
             Serial.println("Command: STOP - Car stopped");
             break;
             
-          case REVERSE_CMD:  // Command 6
+          case REVERSE_CMD:  // Command 6 - Start reverse
             carState = STATE_REVERSING;
             lastLineSideReverse = OUTPUT1;  // Reset reverse tracker
             Serial.println("Command: REVERSE - Car following line in reverse");
+            break;
+            
+          case SET_FAST_PWM:  // Command 7 - Set fast PWM
+            fastPWM = receivedDataByte;
+            updateMotorSpeeds();
+            Serial.print("Fast PWM updated: ");
+            Serial.println(fastPWM);
+            break;
+            
+          case SET_SLOW_PWM:  // Command 8 - Set slow PWM
+            slowPWM = receivedDataByte;
+            updateMotorSpeeds();
+            Serial.print("Slow PWM updated: ");
+            Serial.println(slowPWM);
             break;
             
           default:
@@ -306,6 +373,11 @@ void handleSerialCommands()
         Serial.print(", Received: ");
         Serial.println(receivedChecksum);
       }
+    }
+    else
+    {
+      // Not a command start byte, discard it
+      Serial.read();
     }
   }
 }
@@ -331,23 +403,9 @@ void loop()
       break;
       
     case STATE_REVERSING:
-      // Follow line in reverse
       bangBangLineFollowReverse();
       break;
   }
 
-  delay(1);
-}
-
-// Function to reverse the order of the bits (utility function)
-byte bitFlip(byte value)
-{
-  byte bFlip = 0;
-  byte j = 7;
-  for (byte i = 0; i < 8; i++)
-  { 
-    bitWrite(bFlip, i, bitRead(value, j));
-    j--;
-  }
-  return bFlip;
+  // delay(0.5);  // Small delay for stability
 }

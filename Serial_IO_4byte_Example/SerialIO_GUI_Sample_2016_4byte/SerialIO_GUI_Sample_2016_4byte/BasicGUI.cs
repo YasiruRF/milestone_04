@@ -1,6 +1,6 @@
 ﻿// Curtin University
 // Mechatronics Engineering
-// Serial I/O Card - Sample GUI Code
+// Enhanced Line Follower GUI with PWM Control
 
 using System;
 using System.Collections.Generic;
@@ -10,107 +10,300 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SerialGUISample
 {
-
     public partial class Form1 : Form
     {
-        // Declare variables to store inputs and outputs.
+        // Serial communication variables
         bool runSerial = true;
-        bool byteRead = false;
-        int Input1 = 0;
-        int Input2 = 0;
-        int leftMotor = 0;
-        int rightMotor = 0;
-
         byte[] Outputs = new byte[4];
         byte[] Inputs = new byte[6];
         const byte START = 255;
         const byte ZERO = 0;
+
+        // Command constants
         const byte START_CMD = 4;
         const byte STOP_CMD = 5;
         const byte REVERSE_CMD = 6;
+        const byte SET_FAST_PWM = 7;
+        const byte SET_SLOW_PWM = 8;
 
+        // Sensor and motor values
+        int leftSensor = 0;
+        int rightSensor = 0;
+        int leftMotor = 128;
+        int rightMotor = 128;
+
+        // PWM values (0-100%)
+        int fastPWM = 85;  // Default 85%
+        int slowPWM = 75;  // Default 75%
+
+        // State tracking
+        bool isRunning = false;
+        bool isReverse = false;
+        DateTime startTime;
+        TimeSpan elapsedTime;
+
+        // Chart data
+        Queue<int> leftSensorHistory = new Queue<int>();
+        Queue<int> rightSensorHistory = new Queue<int>();
+        Queue<int> leftMotorHistory = new Queue<int>();
+        Queue<int> rightMotorHistory = new Queue<int>();
+        const int MAX_CHART_POINTS = 100;
 
         public Form1()
         {
-            // Initialize required for form controls.
             InitializeComponent();
+            InitializeChart();
 
-            // Establish connection with serial
+            // Set initial slider values
+            sliderFastPWM.Value = fastPWM;
+            sliderSlowPWM.Value = slowPWM;
+            lblFastPWMValue.Text = fastPWM.ToString() + "%";
+            lblSlowPWMValue.Text = slowPWM.ToString() + "%";
+
+            // Initialize timer display
+            lblTimerValue.Text = "00:00:00";
+
+            // Initialize motor displays
+            txtLeftMotor.Text = leftMotor.ToString();
+            txtRightMotor.Text = rightMotor.ToString();
+
+            // Establish serial connection
             if (runSerial == true)
             {
-                if (!serial.IsOpen)                                  // Check if the serial has been connected.
+                if (!serial.IsOpen)
                 {
                     try
                     {
-                        serial.Open();                               //Try to connect to the serial.
+                        serial.Open();
                         statusBox.Text = "Connected to " + serial.PortName;
+                        statusBox.BackColor = Color.LightGreen;
                     }
                     catch
                     {
                         statusBox.Enabled = false;
-                        statusBox.Text = "ERROR: Failed to connect.";     //If the serial does not connect return an error.
+                        statusBox.Text = "ERROR: Failed to connect.";
+                        statusBox.BackColor = Color.LightCoral;
                     }
                 }
             }
+
+            // Set initial UI state
+            UpdateUIState();
         }
 
-        // Send a four byte message to the Arduino via serial.
-        private void sendIO(byte PORT, byte DATA)
+        private void InitializeChart()
         {
-            Outputs[0] = START;    //Set the first byte to the start value that indicates the beginning of the message.
-            Outputs[1] = PORT;     //Set the second byte to represent the port where, Input 1 = 0, Input 2 = 1, Output 1 = 2 & Output 2 = 3.
-            Outputs[2] = DATA;     //Set the third byte to the value to be assigned to the port.
-            Outputs[3] = (byte)(START + PORT + DATA); //Calculate the checksum byte.
+            chartPWM.Series.Clear();
+            chartPWM.ChartAreas.Clear();
 
-            if (serial.IsOpen)
+            ChartArea chartArea = new ChartArea("MainArea");
+            chartArea.AxisX.Title = "Time";
+            chartArea.AxisY.Title = "Value (0-255)";
+            chartArea.AxisY.Minimum = 0;
+            chartArea.AxisY.Maximum = 255;
+            chartArea.BackColor = Color.FromArgb(240, 240, 255);
+            chartPWM.ChartAreas.Add(chartArea);
+
+            // Left Motor series
+            Series leftMotorSeries = new Series("Left Motor");
+            leftMotorSeries.ChartType = SeriesChartType.Line;
+            leftMotorSeries.Color = Color.Blue;
+            leftMotorSeries.BorderWidth = 2;
+            chartPWM.Series.Add(leftMotorSeries);
+
+            // Right Motor series
+            Series rightMotorSeries = new Series("Right Motor");
+            rightMotorSeries.ChartType = SeriesChartType.Line;
+            rightMotorSeries.Color = Color.Red;
+            rightMotorSeries.BorderWidth = 2;
+            chartPWM.Series.Add(rightMotorSeries);
+
+            chartPWM.Legends.Clear();
+            Legend legend = new Legend();
+            legend.Docking = Docking.Top;
+            chartPWM.Legends.Add(legend);
+        }
+
+        private void UpdateChart()
+        {
+            // Add current values to history
+            leftMotorHistory.Enqueue(leftMotor);
+            rightMotorHistory.Enqueue(rightMotor);
+
+            // Maintain max points
+            if (leftMotorHistory.Count > MAX_CHART_POINTS)
+                leftMotorHistory.Dequeue();
+            if (rightMotorHistory.Count > MAX_CHART_POINTS)
+                rightMotorHistory.Dequeue();
+
+            // Update chart
+            chartPWM.Series["Left Motor"].Points.Clear();
+            chartPWM.Series["Right Motor"].Points.Clear();
+
+            int index = 0;
+            foreach (int val in leftMotorHistory)
             {
-                serial.Write(Outputs, 0, 4);         //Send all four bytes to the Arduino.                      
+                chartPWM.Series["Left Motor"].Points.AddXY(index, val);
+                index++;
+            }
+
+            index = 0;
+            foreach (int val in rightMotorHistory)
+            {
+                chartPWM.Series["Right Motor"].Points.AddXY(index, val);
+                index++;
             }
         }
 
-        private byte Maptobyte(decimal value) //to map the value from -15 to 15 into a byte value from 0 to 255.
+        private void sendIO(byte PORT, byte DATA)
         {
-            double scaled = ((double)value * 8.5) + 127.5;
-            return (byte)Math.Round(scaled);
+            Outputs[0] = START;
+            Outputs[1] = PORT;
+            Outputs[2] = DATA;
+            Outputs[3] = (byte)(START + PORT + DATA);
+
+            if (serial.IsOpen)
+            {
+                serial.Write(Outputs, 0, 4);
+            }
         }
 
-        private string ToBinaryStrong(byte value) //to convert a byte value to a binary string for display.
+        private void btnStart_Click(object sender, EventArgs e)
         {
-            return Convert.ToString(value, 2).PadLeft(8, '0');
+            if (!isRunning)
+            {
+                isRunning = true;
+                startTime = DateTime.Now;
+                timerElapsed.Enabled = true;
+
+                if (isReverse)
+                {
+                    sendIO(REVERSE_CMD, ZERO);
+                    statusBox.Text = "RUNNING - Reverse Mode";
+                }
+                else
+                {
+                    sendIO(START_CMD, ZERO);
+                    statusBox.Text = "RUNNING - Forward Mode";
+                }
+
+                btnStart.Enabled = false;
+                btnStop.Enabled = true;
+                UpdateUIState();
+            }
         }
 
-        // Map 0-100% to 0-255
-        private byte MapDutyCycle(decimal value)
+        private void btnStop_Click(object sender, EventArgs e)
         {
-            double scaled = ((double)value * 2.55);
-            return (byte)Math.Round(scaled);
+            if (isRunning)
+            {
+                isRunning = false;
+                timerElapsed.Enabled = false;
+                sendIO(STOP_CMD, ZERO);
+                statusBox.Text = "STOPPED";
+                
+                btnStart.Enabled = true;
+                btnStop.Enabled = false;
+                UpdateUIState();
+            }
         }
 
-        private void Send1_Click(object sender, EventArgs e) //Press the button to send the value to Output 1, Arduino Port A.
+        private void btnToggleDirection_Click(object sender, EventArgs e)
         {
+            // Can only toggle when stopped
+            if (!isRunning)
+            {
+                isReverse = !isReverse;
+                UpdateUIState();
+            }
+            else
+            {
+                MessageBox.Show("Please stop the car before changing direction.",
+                    "Direction Change", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
-        private void Send2_Click(object sender, EventArgs e) //Press the button to send the value to Output 2, Arduino Port C.
+        private void UpdateUIState()
         {
+            if (isReverse)
+            {
+                // Blue theme for reverse
+                this.BackColor = Color.FromArgb(200, 220, 255);
+                panelTop.BackColor = Color.FromArgb(100, 150, 255);
+                btnToggleDirection.Text = "← REVERSE MODE";
+                btnToggleDirection.BackColor = Color.LightBlue;
+                lblMode.Text = "REVERSE";
+                lblMode.ForeColor = Color.Blue;
+            }
+            else
+            {
+                // Green theme for forward
+                this.BackColor = Color.FromArgb(220, 255, 220);
+                panelTop.BackColor = Color.FromArgb(100, 200, 100);
+                btnToggleDirection.Text = "FORWARD MODE →";
+                btnToggleDirection.BackColor = Color.LightGreen;
+                lblMode.Text = "FORWARD";
+                lblMode.ForeColor = Color.DarkGreen;
+            }
+
+            if (isRunning)
+            {
+                statusBox.BackColor = isReverse ? Color.LightBlue : Color.LightGreen;
+            }
+            else
+            {
+                statusBox.BackColor = Color.LightGray;
+            }
         }
 
-        private void getIOtimer_Tick(object sender, EventArgs e) //Continuously check for incoming data
+        private void sliderFastPWM_Scroll(object sender, EventArgs e)
         {
-            if (serial.IsOpen) //Check that a serial connection exists.
+            fastPWM = sliderFastPWM.Value;
+            lblFastPWMValue.Text = fastPWM.ToString() + "%";
+
+            // Send to Arduino
+            byte pwmByte = (byte)((fastPWM * 255) / 100);
+            sendIO(SET_FAST_PWM, pwmByte);
+        }
+
+        private void sliderSlowPWM_Scroll(object sender, EventArgs e)
+        {
+            slowPWM = sliderSlowPWM.Value;
+            lblSlowPWMValue.Text = slowPWM.ToString() + "%";
+
+            // Send to Arduino
+            byte pwmByte = (byte)((slowPWM * 255) / 100);
+            sendIO(SET_SLOW_PWM, pwmByte);
+        }
+
+        private void timerElapsed_Tick(object sender, EventArgs e)
+        {
+            if (isRunning)
+            {
+                elapsedTime = DateTime.Now - startTime;
+                lblTimerValue.Text = string.Format("{0:00}:{1:00}:{2:00}",
+                    (int)elapsedTime.TotalMinutes,
+                    elapsedTime.Seconds,
+                    elapsedTime.Milliseconds / 10);
+            }
+        }
+
+        private void getIOtimer_Tick(object sender, EventArgs e)
+        {
+            if (serial.IsOpen)
             {
                 try
                 {
-                    // Look for START byte (255) at the beginning of buffer
                     while (serial.BytesToRead > 0)
                     {
                         byte firstByte = (byte)serial.ReadByte();
 
-                        if (firstByte == START) // Found start byte
+                        if (firstByte == START)
                         {
-                            // Check if we have all 6 bytes now
                             if (serial.BytesToRead >= 5)
                             {
                                 Inputs[0] = firstByte;
@@ -120,39 +313,32 @@ namespace SerialGUISample
                                 Inputs[4] = (byte)serial.ReadByte(); // Right Motor
                                 Inputs[5] = (byte)serial.ReadByte(); // Checksum
 
-                                // Calculate checksum: START + LeftSensor + RightSensor + LeftMotor + RightMotor
                                 byte checkSum = (byte)(Inputs[0] + Inputs[1] + Inputs[2] + Inputs[3] + Inputs[4]);
 
-                                // Verify checksum
                                 if (Inputs[5] == checkSum)
                                 {
-                                    Input1 = Inputs[1];
-                                    Input2 = Inputs[2];
+                                    leftSensor = Inputs[1];
+                                    rightSensor = Inputs[2];
                                     leftMotor = Inputs[3];
                                     rightMotor = Inputs[4];
 
                                     // Update display
-                                    txtLeftSensor.Text = Input1.ToString();
-                                    txtRightSensor.Text = Input2.ToString();
+                                    txtLeftSensor.Text = leftSensor.ToString();
+                                    txtRightSensor.Text = rightSensor.ToString();
                                     txtLeftMotor.Text = leftMotor.ToString();
                                     txtRightMotor.Text = rightMotor.ToString();
 
-                                    statusBox.Text = "Data received OK";
-                                }
-                                else
-                                {
-                                    statusBox.Text = "Checksum error";
+                                    // Update chart
+                                    UpdateChart();
                                 }
 
-                                break; // Exit while loop after processing one complete message
+                                break;
                             }
                             else
                             {
-                                // Not enough bytes yet, wait for more data
                                 break;
                             }
                         }
-                        // If not START byte, continue loop to search for next START byte
                     }
                 }
                 catch (Exception ex)
@@ -164,70 +350,7 @@ namespace SerialGUISample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnStart_Click(object sender, EventArgs e)
-        {
-            sendIO(START_CMD, ZERO);
-            statusBox.Text = "Motors Started";
-        }
-
-        private void btnStop_Click(object sender, EventArgs e)
-        {
-            sendIO(STOP_CMD, ZERO);
-            statusBox.Text = "Motors Stopped";
-        }
-
-        private void btnReverse_Click(object sender, EventArgs e)
-        {
-            sendIO(REVERSE_CMD, ZERO);
-            statusBox.Text = "Motors Reversed";
-        }
-
-        private void Get1_Click(object sender, EventArgs e)
-        {
-            sendIO(0, ZERO);
-        }
-
-        private void Get2_Click(object sender, EventArgs e)
-        {
-            sendIO(1, ZERO);
-        }
-
-        private void lblRightSensor_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblRightMotor_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtLeftMotor_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblLeftMotor_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtRightSensor_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtRightMotor_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtLeftSensor_TextChanged(object sender, EventArgs e)
-        {
-
+            btnStop.Enabled = false;
         }
 
         private void lblLeftSensor_Click(object sender, EventArgs e)
@@ -235,5 +358,4 @@ namespace SerialGUISample
 
         }
     }
-
 }
