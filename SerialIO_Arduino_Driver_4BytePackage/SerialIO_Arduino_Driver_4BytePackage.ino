@@ -37,8 +37,8 @@ const byte SENSOR2 = A7;  // Right IR sensor
 // Line follower control parameters
 // Motor speeds (0-255 range, 128 is stop, 255 is full forward, 0 is full reverse)
 const byte MOTOR_STOP = 128;
-const byte MOTOR_FAST = 200;   // Fast forward speed
-const byte MOTOR_SLOW = 150;   // Slow forward speed (for turning)
+const byte MOTOR_FAST = 220;   // Fast forward speed
+const byte MOTOR_SLOW = 170;   // Slow forward speed (for turning)
 
 // Sensor thresholds (adjust these based on your sensor readings)
 // White line detection: readings between 200-300 (closer to 230)
@@ -48,6 +48,8 @@ const int WHITE_THRESHOLD = 500;  // Values below this = white line detected
 // Timing for serial monitor updates
 unsigned long lastPrintTime = 0;
 const unsigned long PRINT_INTERVAL = 200;  // Print every 200ms
+
+byte lastLineSide = OUTPUT1;
 
 // Function to output byte value to DAC1 (Left Motor)
 void outputToDAC1(byte data)
@@ -108,21 +110,32 @@ void bangBangLineFollow()
   // Case 1: Both sensors on black - stop
   if (!leftOnWhite && !rightOnWhite)
   {
-    output1 = MOTOR_STOP;  // Stop left motor
-    output2 = MOTOR_STOP;  // Stop right motor
+    if (lastLineSide == OUTPUT1)  // Last line was on left, turn left sharply
+    {
+      output1 = 230;        // Left motor reverse (full reverse)
+      output2 = 128;      // Right motor forward (full forward)
+    }
+    else  // Last line was on right, turn right sharply
+    {
+      output1 = 128;      // Left motor forward (full forward)
+      output2 = 230;        // Right motor reverse (full reverse)
+    }
 
   }
   // Case 2: Left sensor on white, right on black - turn left
   else if (leftOnWhite && !rightOnWhite)
   {
-    output1 = MOTOR_SLOW;  // Left motor slow (or reverse for sharper turn)
-    output2 = MOTOR_FAST;  // Right motor fast
+
+    lastLineSide = OUTPUT1;
+    output1 = MOTOR_FAST;  // Left motor slow (or reverse for sharper turn)
+    output2 = MOTOR_SLOW;  // Right motor fast
   }
   // Case 3: Right sensor on white, left on black - turn right
   else if (!leftOnWhite && rightOnWhite)
   {
-    output1 = MOTOR_FAST;  // Left motor fast
-    output2 = MOTOR_SLOW;  // Right motor slow (or reverse for sharper turn)
+    lastLineSide = OUTPUT2;
+    output1 = MOTOR_SLOW;  // Left motor fast
+    output2 = MOTOR_FAST;  // Right motor slow (or reverse for sharper turn)
   }
   // Case 4: Both sensors on white - stop or continue last action
   else // Both on white

@@ -72,8 +72,8 @@ void setup()
   initDACs();
   
   // Initialize both motors to run at full speed (255)
-  outputToDAC1(255);
-  outputToDAC2(255);
+  outputToDAC1(200);
+  outputToDAC2(200);
 }
 
 //Main program manages setting/reading of ports via serial.
