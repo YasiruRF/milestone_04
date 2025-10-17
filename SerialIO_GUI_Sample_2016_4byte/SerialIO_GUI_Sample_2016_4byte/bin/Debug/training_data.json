@@ -1,0 +1,8002 @@
+[
+  {
+    "Timestamp": "2025-10-17T03:56:05.1527963+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.1841944+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.2055549+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.268374+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.3164737+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.3605845+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.4066927+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.4672766+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.5177999+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 199,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.5587738+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.6086827+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.6703946+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.7171511+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.7605421+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.8147584+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.8617831+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.9168851+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:05.9668619+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.0146973+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.0636323+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.1202964+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.1676585+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.2134964+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.2626231+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.3116431+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.3713272+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 5,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.4180603+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.4659303+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.5123362+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.5732803+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.6219786+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.6696002+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.7158361+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.7658535+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.8261686+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.8739207+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.9194578+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:06.9647408+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.0182079+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 200,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.0742615+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.1190854+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.1672041+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 201,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.2139984+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.2765232+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.3209688+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.3697482+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.4152917+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.4780516+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.5234495+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.5772854+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.6199951+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.6863938+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.7314107+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 26,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.7774294+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.8212916+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.8720123+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.9201624+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:07.965316+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.0324199+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.0788814+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.1248001+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.1699922+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.2321066+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.2767617+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.3221549+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.3690248+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.4304171+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.4778451+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.526337+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.5730964+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.6216754+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.6844473+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.7310851+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.7783087+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.8259544+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.8727241+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.9391006+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:08.9810385+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 3,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.0281199+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.0721316+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.1209773+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.1851492+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.2320191+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.2759737+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.3374614+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.3853233+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.4329567+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.4808794+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.5254672+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.5719698+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.6362252+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.6814305+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.7287482+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.7899186+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.836549+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.8850757+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.9329717+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:09.9817091+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.0284919+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.0901025+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.1355778+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 5,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.1822883+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.2296887+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.2899218+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.3386587+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.3829729+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.4316071+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.491228+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.5381679+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.5855906+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.6314735+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 237,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.6782458+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 211,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.7419147+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.7879307+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.8359225+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.8817825+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.94802+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:10.9899872+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:11.0407269+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:11.0831259+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:11.1302333+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:11.19029+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:11.2378095+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:11.2862833+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:11.3304644+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.5780451+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.6180289+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.6642406+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 3,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.7113958+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.7616553+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.8196938+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.867262+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.9135332+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:18.9622032+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.0211465+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.0683541+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.1143975+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.1624427+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.212744+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.2747667+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.3222631+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.3682589+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.4155602+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.4777863+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.5250478+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.5731877+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.6193655+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.6624732+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.7247943+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.7708525+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.8175226+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.8651623+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.9296395+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:19.973272+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.0219832+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.0685281+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.1179229+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.1770095+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.2237928+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.2692486+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.3178908+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.3822687+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.4251867+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.476215+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.523509+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 193,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.5655838+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.645541+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.6770778+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.7397629+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.7698833+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.8348837+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.8933601+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.9190823+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:20.9717314+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.036022+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 193,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.0736655+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.1285281+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.1743397+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.2228798+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.2711887+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.3506241+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.3817474+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.4448193+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.4733401+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.5458323+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.5858845+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.6286287+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.6724865+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.7191493+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.7806571+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.8268402+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.8738733+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.9358818+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:21.9772443+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.0331041+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.0768941+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.1221137+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.1872762+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.2307058+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.2771757+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.3250238+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.3869863+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.4341643+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.4804416+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.5286203+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.5751482+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.6359023+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.6820719+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.7290994+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.7778887+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.8236366+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.8872562+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.9342601+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:22.9814247+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 193,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.0273284+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 190,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.094223+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.1385027+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.1861766+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.2292723+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.2783552+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.3416151+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.3872112+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.4374306+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.4816478+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.541485+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.5876407+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.6331652+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.6780066+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.7435137+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.7899544+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.8364024+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.8815055+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:23.9448605+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.0049483+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.0387261+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.0983018+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.1302309+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.193854+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.2396794+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.2864036+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.3349641+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.3972311+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.4440348+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.4920923+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 237,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.5359819+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.5819524+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.6460234+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.6893399+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.7579013+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:24.8013461+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 211,
+    "RightMotor": 237,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.3183085+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.3366954+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.3489788+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.4021517+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.462961+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.5101063+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.5549116+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.6035587+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.6641581+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.7105376+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.7573048+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.8044354+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.8525785+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.9163092+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:41.9626696+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.0103218+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.0554899+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.1044713+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.1650486+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.2151006+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.259963+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.3058819+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.3524922+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.414936+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.4624833+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.5118998+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.5546609+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.6039256+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.6695697+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.7132226+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.7609632+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.8049097+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.854274+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.9208488+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:42.9653578+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.0104264+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.058326+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.1032209+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.1681608+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.213638+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.2603474+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.3062087+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.3705127+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.4200664+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.467672+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.5086539+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.5709028+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.6178309+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.663793+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.7133702+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.7621026+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.824831+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.869657+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.9139341+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:43.9629628+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 193,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.0086545+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.0733956+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.1186536+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 195,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.1652555+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.2131191+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.2761432+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.3228307+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.372346+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.4204159+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.4637314+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.5256423+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.5732578+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.622168+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.6697692+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.7133655+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.7758509+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.8222302+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.8704017+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.9127252+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:44.975114+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.0223471+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.0711561+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.118285+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.1651822+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.2142824+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.2746661+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.3201425+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.3726644+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.412995+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.4757312+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.5235515+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.5712315+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.6232374+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.6717558+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.7285981+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.777576+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.8206311+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.8695469+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.9297837+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:45.9867409+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 5,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.0223051+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.0761964+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.1291888+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.1730499+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.2222569+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.2748957+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.3356957+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.3948521+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.4258755+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 3,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.4723945+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.5190009+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.6001324+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.6308639+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.6773978+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 195,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.7239633+05:30",
+    "LeftSensor": 200,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.7701551+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.8321714+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.896706+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.9296102+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:46.9939408+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.0205282+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.0732083+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.1453538+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.17709+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.2229855+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.2878884+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.3200765+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.3809042+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.4282167+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.4771131+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.5229104+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.5863575+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.6322199+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.6782276+05:30",
+    "LeftSensor": 200,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.7311508+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.7719708+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:47.8342566+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.6561502+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.7463496+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.7734743+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.7904655+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.8613541+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.9074289+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.9249681+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.9465469+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:58.9706353+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.0084897+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.0245185+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.0427119+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.0779749+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.102472+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.1204938+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.1355374+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.1748497+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.2028369+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.2333438+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.3024374+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.3332316+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.3857999+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.4322287+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.4714449+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.5092989+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.5383248+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.5686536+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.593637+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.6153347+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.637368+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.6774913+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.7140444+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.8047378+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.8410851+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.8808112+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.9150292+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.9610874+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:56:59.9661803+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.00746+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.0677817+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.1120355+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.1611828+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.1844489+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.2669023+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.3149998+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.3732217+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.3861943+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.4345096+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.4813476+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.52886+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.575021+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.6235321+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.6856053+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 193,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.7335599+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.7802345+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.8287462+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.8743557+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:00.9386611+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.0024366+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.0465173+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.08232+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.1238581+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.1869801+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.2487629+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 193,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.3156928+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.3823282+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.4235179+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.4415728+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.4870963+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.5589296+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.5840372+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.6549635+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.7085729+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.7411888+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.7926592+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.8362762+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.895829+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:01.9444589+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.0016195+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.0398385+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.109481+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.1479019+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.203458+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.254018+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.2936915+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.3364951+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.3970739+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.4626731+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.4879848+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.5404546+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.594708+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.6690561+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.6896883+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.7472384+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 4,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.7924034+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.8502318+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.8915428+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.9471557+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:02.986299+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.0344106+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.0995963+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.1604215+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.1917583+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.2388039+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.2850122+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 193,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.3469938+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.3942562+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 221,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.4435458+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.4896005+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.5371102+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.6116623+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.6358216+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.6914443+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.739024+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.8007724+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.8463328+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 242,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.9082888+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.9429294+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:03.9878316+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 242,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:04.0444301+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:04.0956112+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 242,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.1694792+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.2092809+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.2305934+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.2492856+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.3190868+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.3271996+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.3450858+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.3590822+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.3717202+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.3934007+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.4054107+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.4199165+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.4359075+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.4634722+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 194,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.4853788+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.5228528+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.5499298+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.5950019+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.6673523+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.7096934+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.7543291+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.8162394+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.8552588+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.9066399+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.9501788+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 234,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:18.9986243+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.0502101+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.1100904+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.1589549+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.2001768+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.2655809+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.3145474+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.3533163+05:30",
+    "LeftSensor": 200,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.40388+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.4513572+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 234,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.5369669+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.6160512+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.6894923+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.7465474+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.7831782+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.843382+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.9148589+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:19.9695953+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.0038019+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.0208418+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.0589213+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.1228811+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.1419134+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.1725104+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.2104179+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.2812054+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.3355954+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.3791919+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.4053802+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.4582649+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.5169955+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.5614441+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.6097369+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 234,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.6554546+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.7195449+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.7625641+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.806352+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.8558383+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.9233954+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:20.9680461+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.0444088+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.066785+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.1230939+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.183089+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.2369651+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 234,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.2834567+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.331763+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.3663736+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.4188813+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.4819156+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.5148698+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.5665961+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.6155503+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.6671761+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.7196703+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.7674571+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.8308987+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.8744656+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.9374422+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:21.9828314+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.019549+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.081549+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.2316272+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.2356221+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.2386251+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.2661589+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.3114969+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.373612+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.4223463+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.4661178+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.51502+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.5656268+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.6245208+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.6726771+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.7301443+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.7773728+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.8146062+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.8785053+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:22.9206599+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:23.0026621+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:38.9974089+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.02484+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.0338407+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.0431648+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.074555+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.1811778+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.2445758+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.2726529+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.2927185+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.3273899+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.3875783+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.4308357+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.4769058+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.5550625+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.5936073+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.632442+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.697172+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.7615978+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.7938221+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.8521881+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.8857029+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.9476037+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:39.9959961+05:30",
+    "LeftSensor": 8,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.03818+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.0877035+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.1354513+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.1796432+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.2460179+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.2924946+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.3410984+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.3871247+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.4356299+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.4811664+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.5426913+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.5925157+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.6341361+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.6908861+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.7477338+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.7943604+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.8352042+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.8850431+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.9324776+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:40.9927947+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.0397569+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.0873786+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.1407299+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.1976724+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.2435661+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 200,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.2879869+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.3408791+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.3874025+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.4391941+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.4942059+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.5541236+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.6137914+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.6383101+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.6990412+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.7479109+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.8174418+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.8349451+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.9005034+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.9524657+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:41.9946902+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.0382142+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.1196653+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.152626+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.1933556+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.2428294+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.3038809+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.3519105+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.4158875+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.4478801+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.4931179+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.5384297+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.5884664+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.6512236+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.6985182+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.7493398+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.7920099+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 193,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.851468+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.9055594+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:42.9459852+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 234,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.0070829+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 234,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.0545316+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.1016634+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.1494276+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.1978212+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.2568112+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.3027989+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 234,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.3515155+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.4045496+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.4495079+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.4935273+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.5555794+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.6013796+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.6528595+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.700906+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.7475293+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.7916698+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.8577153+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.9025643+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.9489918+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:43.9959781+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.0440052+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.1059053+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.1532088+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.2008976+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.245267+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.3095131+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 234,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.3583279+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.4028902+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.4514775+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.5155464+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.562923+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.5984511+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.6879847+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:57:44.7000349+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.3488146+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.3722135+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.3896817+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.4375619+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.4879747+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.5406758+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.5815891+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.6521719+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.6803997+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.7329702+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.8058976+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.8354741+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.9033403+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.9323431+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:05.9903043+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.0377207+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.1033036+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.1412819+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.1906953+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.2421997+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.2915065+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.3490865+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.3978377+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.4551094+05:30",
+    "LeftSensor": 90,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.4855678+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.5539081+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.597814+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.6710258+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 191,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.6913056+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.7360702+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 195,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.7989132+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.8524637+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.9086895+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.9429997+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:06.9858375+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.0468616+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.0963976+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.1420327+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.1871318+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.2427696+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.2957343+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.3464875+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.3910233+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.4368469+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.5014726+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.5467089+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.5981805+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 195,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.648275+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.6993106+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.7491881+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.7966795+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.8461251+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.8912889+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.9389391+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:07.9924576+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.052396+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.0968941+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.1440196+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.1919094+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.2401298+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.3212888+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.3469019+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.3912315+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.4504912+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.5018211+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.5685826+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.5978191+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.6506329+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.7038169+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.7682218+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.7993964+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.8469827+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.8929099+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:08.9561452+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.0251651+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.0556412+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.0974747+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 229,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.1539423+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.2057861+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.2520811+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.2996726+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.3589269+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.4151766+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 229,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.4548215+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.5042165+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.549443+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.5974206+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.6636423+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.703796+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.7497494+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.8018463+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.8458163+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.9122995+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:09.9593139+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.0103451+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.0585699+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.1118392+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.1458502+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.2075568+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.2540706+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.2977595+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.3601724+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 229,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.4057379+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.4553778+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.5058821+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.5474019+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.6124217+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.6567896+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.718006+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.7677994+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.8150369+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.8657781+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.908991+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:10.9565233+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:11.0078778+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 229,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:11.1170138+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:11.1290076+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.0993688+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 128,
+    "RightMotor": 128,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.1455998+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.1492953+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.1623312+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.2062266+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 196,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.288638+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.3167163+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.3664525+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.4713457+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.5054825+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.5281278+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.5728558+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.6240646+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.6608659+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.7040649+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 5,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.7617972+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.8161421+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.8633364+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.9118705+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:24.977283+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.0116214+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.0809205+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.1329189+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.163177+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.2283081+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.2566686+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.3195811+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.3851268+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.4152468+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.458795+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.5141319+05:30",
+    "LeftSensor": 200,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.5748444+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.6252113+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.6834925+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.7113061+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.7831668+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.8279738+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.8723283+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.9168027+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:25.9666908+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.0228636+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.077004+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.1348426+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.1622236+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.2248769+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.288803+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.3193946+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.3921466+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.4253478+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.4799857+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.5405917+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.6002834+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.6385883+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.6792124+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.7146801+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.7742095+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.842175+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 195,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.8675959+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.925207+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:26.9719945+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.0413333+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.0719181+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.1308228+05:30",
+    "LeftSensor": 200,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.1971224+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.2273357+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.2924455+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.320296+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.3820247+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.4473827+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.4663069+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.5290215+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.5826358+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.6159294+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.6776304+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.7299997+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.7705225+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.8403763+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.8657389+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.9265692+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:27.9877758+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.0242478+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.0717399+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.1504584+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.1810004+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.2284316+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.2721233+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.33882+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.3716359+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.4317503+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.4958449+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.5306921+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.5740044+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.619851+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.6818878+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.728999+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.7866846+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.8238457+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.8743041+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.9333631+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:28.9847075+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.0301237+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.0863906+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.1232142+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.1892749+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.2343977+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.2799015+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.3290561+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.3737862+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.4401427+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.4884774+05:30",
+    "LeftSensor": 5,
+    "RightSensor": 198,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.5307604+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.5810775+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.6249544+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.6867764+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.733487+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.7788783+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 194,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.8332625+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.8885679+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.9371019+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 198,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:29.9829344+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.0370448+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.0905987+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.146839+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.1861566+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.2363524+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.2809153+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.3276497+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.3768493+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.4403891+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.4869295+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.5341447+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.5815759+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.6281822+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.6831335+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.7368344+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.7986864+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.8440639+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 196,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.8944385+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.9393853+05:30",
+    "LeftSensor": 199,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:30.9857685+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 199,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.0303891+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.0963524+05:30",
+    "LeftSensor": 196,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.1451411+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.1892824+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.236449+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.2810225+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.3447742+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.3975844+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 198,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.4392483+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.4859226+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.5318166+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.5967375+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 197,
+    "LeftMotor": 138,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.6399919+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 197,
+    "LeftMotor": 221,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.6866071+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.732151+05:30",
+    "LeftSensor": 6,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 247,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.7933027+05:30",
+    "LeftSensor": 198,
+    "RightSensor": 6,
+    "LeftMotor": 247,
+    "RightMotor": 221,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.846491+05:30",
+    "LeftSensor": 200,
+    "RightSensor": 197,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  },
+  {
+    "Timestamp": "2025-10-17T03:58:31.8901102+05:30",
+    "LeftSensor": 197,
+    "RightSensor": 190,
+    "LeftMotor": 247,
+    "RightMotor": 138,
+    "IsReverse": false
+  }
+]

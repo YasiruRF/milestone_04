@@ -1,6 +1,6 @@
 //Curtin University
 //Mechatronics Engineering
-//Enhanced Line Follower with PWM Control + GUI Communication
+//Enhanced Line Follower with AI Mode Support
 
 // Serial communication protocol: <startByte><commandByte><dataByte><checkByte>
 
@@ -40,13 +40,13 @@ byte fastPWM = 245;      // Default 85% = 217
 byte slowPWM = 225;      // Default 75% = 191
 
 // Calculate motor speeds based on PWM percentages
-byte motorFast = MOTOR_STOP + fastPWM - 128;        // Forward fast
-byte motorSlow = MOTOR_STOP + slowPWM - 128;        // Forward slow
-byte motorReverseFast = MOTOR_STOP - (fastPWM - 128); // Reverse fast
-byte motorReverseSlow = MOTOR_STOP - (slowPWM - 128); // Reverse slow
+byte motorFast = MOTOR_STOP + fastPWM - 128;
+byte motorSlow = MOTOR_STOP + slowPWM - 128;
+byte motorReverseFast = MOTOR_STOP - (fastPWM - 128);
+byte motorReverseSlow = MOTOR_STOP - (slowPWM - 128);
 
 // Sensor threshold (adjust based on your sensor readings)
-const int WHITE_THRESHOLD = 500;  // Values below = white line detected
+const int WHITE_THRESHOLD = 400;  // Values below = white line detected
 
 // Timing for serial monitor updates
 unsigned long lastSendTime = 0;
@@ -62,12 +62,21 @@ const byte STOP_CMD = 5;
 const byte REVERSE_CMD = 6;
 const byte SET_FAST_PWM = 7;
 const byte SET_SLOW_PWM = 8;
+const byte AI_MODE_CMD = 9;
+const byte MANUAL_MODE_CMD = 10;
+const byte AI_MOTOR_LEFT_CMD = 11;
+const byte AI_MOTOR_RIGHT_CMD = 12;
 
 // Car state variables
 int carState = 0;
 const int STATE_STOPPED = 0;
 const int STATE_RUNNING = 1;
 const int STATE_REVERSING = 2;
+
+// AI Mode variables
+bool isAIMode = false;
+byte aiLeftMotor = 128;
+byte aiRightMotor = 128;
 
 // Smoothing variables to reduce jitter
 const int SMOOTH_SAMPLES = 2;
@@ -146,7 +155,7 @@ void readSensorsSmooth(int &leftVal, int &rightVal)
 // Setup: Initialize serial communication and pins
 void setup() 
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   initDACs();
   
   // Initialize sensor buffers
@@ -164,8 +173,9 @@ void setup()
   
   delay(2000);  // 2 second delay before starting
   
-  Serial.println("=== Enhanced Line Follower Started ===");
+  Serial.println("=== Enhanced Line Follower with AI Support Started ===");
   Serial.println("State: STOPPED");
+  Serial.println("Mode: MANUAL");
   Serial.println("Waiting for commands from GUI...");
 }
 
@@ -187,17 +197,13 @@ void bangBangLineFollow()
   {
     if (lastLineSide == OUTPUT1)  // Line was on left, turn left sharply
     {
-      // output1 = MOTOR_STOP - 30;  // Left motor slight reverse
-      // output2 = motorFast;         // Right motor forward fast
-      output1 = MOTOR_STOP - 60;  // Left motor slight reverse
+      output1 = MOTOR_STOP + 10;  // Left motor slight forward
       output2 = motorFast;         // Right motor forward fast
     }
     else  // Line was on right, turn right sharply
     {
-      // output1 = motorFast;         // Left motor forward fast
-      // output2 = MOTOR_STOP - 30;  // Right motor slight reverse
       output1 = motorFast;         // Left motor forward fast
-      output2 = MOTOR_STOP - 60;  // Right motor slight reverse
+      output2 = MOTOR_STOP + 10;  // Right motor slight forward
     }
   }
   // Case 2: Left sensor on white, right on black - Gentle left turn
@@ -242,15 +248,15 @@ void bangBangLineFollowReverse()
   // Case 1: Both sensors on black - Sharp turn based on last known line position
   if (!leftOnWhite && !rightOnWhite)
   {
-    if (lastLineSideReverse == OUTPUT1)  // Line was on left, turn left sharply in reverse
+    if (lastLineSideReverse == OUTPUT1)
     {
-      output1 = MOTOR_STOP + 30;  // Left motor slight forward (to turn left in reverse)
+      output1 = MOTOR_STOP + 30;  // Left motor slight forward
       output2 = motorReverseFast; // Right motor reverse fast
     }
-    else  // Line was on right, turn right sharply in reverse
+    else
     {
       output1 = motorReverseFast; // Left motor reverse fast
-      output2 = MOTOR_STOP + 30;  // Right motor slight forward (to turn right in reverse)
+      output2 = MOTOR_STOP + 30;  // Right motor slight forward
     }
   }
   // Case 2: Left sensor on white, right on black - Gentle left turn in reverse
@@ -275,6 +281,18 @@ void bangBangLineFollowReverse()
   }
   
   // Apply motor speeds to DACs
+  outputToDAC1(output1);
+  outputToDAC2(output2);
+}
+
+// AI Mode: Apply motor commands from Gemini AI
+void applyAIControl()
+{
+  // Use the motor values received from AI
+  output1 = aiLeftMotor;
+  output2 = aiRightMotor;
+  
+  // Apply to DACs
   outputToDAC1(output1);
   outputToDAC2(output2);
 }
@@ -330,7 +348,7 @@ void handleSerialCommands()
         {
           case START_CMD:  // Command 4 - Start forward
             carState = STATE_RUNNING;
-            lastLineSide = OUTPUT1;  // Reset forward tracker
+            lastLineSide = OUTPUT1;
             Serial.println("Command: START - Car now following line forward");
             break;
             
@@ -341,7 +359,7 @@ void handleSerialCommands()
             
           case REVERSE_CMD:  // Command 6 - Start reverse
             carState = STATE_REVERSING;
-            lastLineSideReverse = OUTPUT1;  // Reset reverse tracker
+            lastLineSideReverse = OUTPUT1;
             Serial.println("Command: REVERSE - Car following line in reverse");
             break;
             
@@ -357,6 +375,28 @@ void handleSerialCommands()
             updateMotorSpeeds();
             Serial.print("Slow PWM updated: ");
             Serial.println(slowPWM);
+            break;
+            
+          case AI_MODE_CMD:  // Command 9 - Enable AI Mode
+            isAIMode = true;
+            Serial.println("Command: AI MODE ENABLED - Gemini AI now controlling car");
+            break;
+            
+          case MANUAL_MODE_CMD:  // Command 10 - Disable AI Mode
+            isAIMode = false;
+            Serial.println("Command: MANUAL MODE - Bang-bang algorithm restored");
+            break;
+            
+          case AI_MOTOR_LEFT_CMD:  // Command 11 - AI Left Motor Command
+            aiLeftMotor = receivedDataByte;
+            Serial.print("AI Left Motor: ");
+            Serial.println(aiLeftMotor);
+            break;
+            
+          case AI_MOTOR_RIGHT_CMD:  // Command 12 - AI Right Motor Command
+            aiRightMotor = receivedDataByte;
+            Serial.print("AI Right Motor: ");
+            Serial.println(aiRightMotor);
             break;
             
           default:
@@ -391,21 +431,28 @@ void loop()
   // Always send sensor and motor data to GUI
   sendDataToGUI();
   
-  // Execute behavior based on carState
-  switch(carState)
+  // Execute behavior based on carState and AI mode
+  if (carState == STATE_STOPPED)
   {
-    case STATE_RUNNING:
-      bangBangLineFollow();
-      break;
-      
-    case STATE_STOPPED:
-      stopMotors();
-      break;
-      
-    case STATE_REVERSING:
-      bangBangLineFollowReverse();
-      break;
+    stopMotors();
   }
-
-  // delay(0.5);  // Small delay for stability
+  else if (isAIMode)
+  {
+    // AI Mode: Use commands from Gemini
+    applyAIControl();
+  }
+  else
+  {
+    // Manual Mode: Use bang-bang algorithm
+    switch(carState)
+    {
+      case STATE_RUNNING:
+        bangBangLineFollow();
+        break;
+        
+      case STATE_REVERSING:
+        bangBangLineFollowReverse();
+        break;
+    }
+  }
 }
