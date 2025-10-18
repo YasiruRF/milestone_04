@@ -76,7 +76,7 @@ namespace SerialGUISample
         bool isCollectingData = false;
 
         // Gemini API
-        private string geminiApiKey = "AIzaSyCvFwV1_8CkW6UjjK8p8oxtp8FjAsjHaf4"; // Replace with your actual API key
+        private string geminiApiKey = "API_KEY"; // Replace with your actual API key
         private HttpClient httpClient = new HttpClient();
         private System.Windows.Forms.Timer aiControlTimer;
         private int aiUpdateInterval = 100; // AI decision every 100ms
